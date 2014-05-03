@@ -1,7 +1,10 @@
 /* website specific css and bootstrap override css */
 
-p, h1, h2, h3, h4, h5 {
+p, h1, h2 {
     color: #444444;
+}
+h3, h4 {
+    color: #CC3300;
 }
 .orange {
     color: #FF6600;
@@ -94,4 +97,6 @@ p, h1, h2, h3, h4, h5 {
 #tagline {
     margin-top: 150px;
 }
-
+.main {
+    margin-top: 150px;
+}
