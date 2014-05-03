@@ -1,0 +1,97 @@
+/* website specific css and bootstrap override css */
+
+p, h1, h2, h3, h4, h5 {
+    color: #444444;
+}
+.orange {
+    color: #FF6600;
+}
+.darker-orange {
+    color: #E65C00;
+}
+.brown-orange {
+    color: #CC3300;
+}
+.navbar-brand {
+    font-family: Georgia, "Times New Roman", serif;
+    color: gray;
+    font-size: 20pt;
+    margin-right: 1em;
+}
+.navbar-brand:hover, .navbar-brand:focus {
+    color: black;
+}
+.navbar-fixed-top {
+    background-color: white;
+}
+.nav li {
+    padding-top: 10px;
+}
+.nav a {
+    color: gray;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    color: #E65C00;
+    background-color: white;
+}
+.active a {
+    color: #CC3300;
+}
+#forkongithub a {
+    background:gray;
+    color:#fff;
+    text-decoration:none;
+    font-family:arial, sans-serif;
+    text-align:center;
+    font-weight:bold;
+    padding:2px 40px;
+    font-size:1.1rem;
+    line-height:2rem;
+    position:relative;transition:0.5s;
+}
+#forkongithub a:hover {
+    background:#E65C00;
+    color:#fff;
+}
+#forkongithub a::before, #forkongithub a::after {
+    content:"";
+    width:100%;
+    display:block;
+    position:absolute;
+    top:1px;
+    left:0;
+    height:1px;
+    background:#fff;
+}
+#forkongithub a::after {
+    bottom:1px;
+    top:auto;
+}
+@media screen and (min-width:800px) {
+    #forkongithub {
+        position:absolute;
+        display:block;
+        top:-10;
+        right:0;
+        width:200px;
+        overflow:hidden;
+        height:200px;
+    }
+    #forkongithub a {
+        width:200px;
+        position:absolute;
+        top:38px;
+        right:-60px;
+        transform:rotate(45deg);
+        -webkit-transform:rotate(45deg);
+        box-shadow:2px 2px 2px rgba(0,0,0,0.8);
+    }
+}
+.jumbotron {
+    background-color: #F9F9F9;
+    margin-top: 50px;
+}
+#tagline {
+    margin-top: 150px;
+}
+
