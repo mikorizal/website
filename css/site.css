@@ -117,4 +117,8 @@ h3, h4 {
     font-weight: bold;
     text-align: center;
 }
-
+.contact {
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 60px;
+}
