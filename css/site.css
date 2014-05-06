@@ -1,7 +1,7 @@
 /* website specific css and bootstrap override css */
 
-p, h1, h2 {
-    color: #444444;
+p, h1, h2, .gray-heading {
+    color: #545454;
 }
 h3, h4 {
     color: #CC3300;
@@ -99,6 +99,7 @@ h3, h4 {
 }
 .tagline {
     font-size: 1.2em;
+    color: #444444;
 }
 .main {
     margin-top: 60px;
