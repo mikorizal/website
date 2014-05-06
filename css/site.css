@@ -106,3 +106,13 @@ h3, h4 {
 .under-top {
     margin-top: 30px;
 }
+.mushy {
+    background-color: #F9F9F9;
+    padding: 26px 60px 120px 60px;
+}
+.faq {
+    color: gray;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: center;
+}
