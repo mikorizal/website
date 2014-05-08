@@ -120,10 +120,14 @@ h3, h4 {
 .contact {
     font-size: 1.4em;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 .contact-sub {
     font-size: 1.2em;
     font-style: italic;
     text-align: center;
+}
+.contact-line {
+    width: 10%;
+    border-color: #FF6600;
 }
