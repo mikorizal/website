@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "cco": "http://purl.org/ontology/cco/core#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "id": "@id",
+    "type": "@type"
+  },
+  "id": "http://microrizal.org/bob_haugen.json",
+  "type": ["Person", "foaf:Person"],
+  "name": "Bob Haugen",
+  "homeLocation": {
+    "type": "Place",
+    "id": "http://www.geonames.org/5279468/wisconsin.html",
+    "name": "Wisconsin. USA"
+  },
+  "currentLocation": {
+    "type": "Place",
+    "id": "http://www.geonames.org/5279468/wisconsin.html",
+    "name": "Wisconsin. USA"
+  },
+  "member":[
+    {
+      "type": "Organization",
+      "id": "http://mikorizal.org",
+      "name": "Mikorizal"
+    }
+  ]
+}
