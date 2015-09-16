@@ -94,7 +94,7 @@ h3, h4 {
     }
 }
 .jumbotron {
-    background-color: #F9F9F9;
+    background-color: #EBF0F5;
     margin-top: 50px;
 }
 .tagline {
@@ -108,8 +108,9 @@ h3, h4 {
     margin-top: 30px;
 }
 .mushy {
-    background-color: #F9F9F9;
+    background-color: #EBF0F5;
     padding: 26px 60px 120px 60px;
+    margin-top: 20px;
 }
 .faq {
     color: gray;
