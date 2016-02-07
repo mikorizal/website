@@ -1,0 +1,675 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>
+			REA Beyond the Enterprise
+		</title>
+	</head>
+	<body>	
+		
+	<div style="margin: 1cm" >
+	<div align="center">
+		<h1>Beyond the Enterprise: Taking REA to Higher Levels</h1>
+		<p>Robert Haugen, Mikorizal Software</p>
+		<img src="images/SensorWeb.JPG" alt="Sensor Web" /><br />
+		from <a href="http://sensorweb.geoict.net/whatIsSensorWeb.htm">http://sensorweb.geoict.net/whatIsSensorWeb.htm</a>
+		<div style="width: 50%; font-family: sans-serif; font-size: 80%;">
+			Sensor Webs are just one example of networks beyond enterprises 
+			with <b>economic resource</b> information that can be incorporated 
+			into REA analyses.  More below.
+		</div>
+	</div>
+
+	<h2>Introduction</h2>
+	<p>
+		REA is usually presented as an enterprise accounting model. 
+		But it can also be used for higher-level economic analyses, 
+		which can connect individual enterprises into larger economic formations.  
+		No other accounting model is so adaptable. In this context, it is apt 
+		to think of REA as a general-purpose economic ontology.
+	</p>
+	<p>
+		The <a href="http://www.msu.edu/user/mccarth4/Alabama.doc">REA Ontology</a> 
+		quotes Ijiri as saying "...<i>the economic activities of an entity are a 
+		sequence of exchanges of resources - the process of giving up some resources 
+		to obtain others.</i>"  Those <b>exchanges of resources</b> do not stop at the 
+		boundaries of a single company.  They extend across many individuals and 
+		organizations, across industries, regions or the whole planet.  And they can 
+		be aggregated at higher levels: for example, all exchanges involving an 
+		<b>economic resource or economic agent type</b>.
+	</p>
+	<p>
+		In this presentation, we will look at several higher-level economic formations 
+		in REA terms: supply chains, value systems, business clusters, regional economies, 
+		ecosystems, input-output graphs and world models.
+	</p>
+
+	<img src="images/Layers.png" alt="Economic formation layers" />
+
+	<p>
+		The economic relationships in each of these higher-level formations can be modeled using the REA ontology: 
+		<b>Economic Resources, Events, Agents, Commitments, and Resource, Event and Agent Types</b>.
+		That is, the models for larger formations can be REA models.
+		This paper suggests some optional additions and extensions, but the main differences between 
+		internal REA enterprise models and REA models for larger formations are:
+		<ul>
+			<li>the higher-level models deal with many enterprises;</li>
+			<li>the resources, events and agents are usually aggregates or types rather than individuals;</li>
+			<li>the models take the independent instead of internal enterprise view.</li>
+		</ul>
+
+	</p>
+
+
+	<h2>Why is this important?</h2>
+	<p>
+		The Internet is the most obvious example of an external network that is more relevant 
+		to business than most internal accounting systems. 
+	</p>
+	<p>
+		Many - maybe most - of the <b>economic events</b> in the world are collected in databases
+		at Google, Amazon, banking systems, the US intelligence apparatus, etc.  It's too late
+		to decide if this is a good or bad thing.  It has already happened.
+	</p>
+	<p>
+		REA gives us a way to think about these <b>economic events</b> in all of their interconnections.
+		To reason over them.  To make intelligent decisions about what should happen as a result.
+	</p>
+	<p>
+		Many - maybe most - enterprises now find their greatest challenges not in their internal operations
+		but in their external relationships with markets and partners. They become outward-facing 
+		rather than inward-facing.
+	</p>
+	<p>
+		In many parts of the world, government, academic and business organizations work on 
+		business clusters and regional economies rather than individual enterprises.
+	</p>
+	<p>
+		Moreover, with the rise of globalization, global warming and the end of cheap oil,
+		factors that were once economically relegated to "externalities" are becoming 
+		more critical to everyone.
+	</p>
+		
+	<h2>Supply Chains and Value Systems</h2>
+	<p>
+		Supply chains, which have been modeled in REA terms several times, are composed of the 
+		chains of material suppliers to an individual manufacturing company. For example, the January 2000 
+		<a href="http://logisticalsoftware.com/Rea4scm.htm">REA, a semantic model for Internet supply chain collaboration</a>
+		and <a href="http://www.itu.dk/people/hessellund/work/Hessellund05a.pdf">Supply Chain Modeling with REA</a> 
+		which focuses a lot on transportation.
+	</p>
+	<p>
+		A value system is a broader concept, which consists of all the interconnected <b>economic agents</b>
+		and <b>resource</b> inputs involved in bringing a <b>product or service type</b> to its end consumers.
+	</p>
+	<p>
+		Both supply chains and value systems are modeled in REA by chains of alternating <b>conversion 
+		and exchange processes</b>, connected by output-input <b>stock flows</b>.  These chains will also be 
+		used in all of the other larger economic formations below, except the larger formations will 
+		use larger aggregate <b>resource, agent and process types</b>.
+	</p>
+	<img src="images/SupplyChainComponents.png" alt="Supply Chain Components" />
+	<p>
+		Below is a simple REA value system model.  Note that this model includes families as both 
+		producers and consumers. Why don't enterprise systems embrace their employees' families?
+	</p>
+	<img src="images/ValueSystem2.png" alt="Value System" />
+
+	<p>
+		The breakout box on the right in the diagram above may be a bit difficult to read, 
+		but it shows Bill McCarthy's standard internal enterprise REA diagram, where the
+		F, P, M and S in the Retail Goods Manufacturer box translate to 
+		Finance, Procurement, Manufacturing and Sales in the breakout box.
+	</p>
+	<h2>Business Clusters</h2>
+	<blockquote>
+		<p style="font-family: sans-serif; font-size: 90%; " >
+			A <b>business cluster</b> is a geographic concentration of interconnected businesses, 
+			suppliers, and associated institutions in a particular field. Clusters are considered 
+			to increase the productivity with which companies can compete, nationally and globally.
+		</p>
+		<p style="font-family: sans-serif; font-size: 90%; " >
+			This concept, also known as a <b>competitive cluster</b>, <b>industry cluster</b> or 
+			<b>Porter's cluster</b>, was first developed by Michael Porter in 1990.<br />
+			<a href="http://en.wikipedia.org/wiki/Business_cluster">http://en.wikipedia.org/wiki/Business_cluster</a>
+		</p>
+	</blockquote>
+	<p>
+		In order to model business clusters in REA, it is often useful to create a looser precursor of 
+		<b>Commitments</b> that might be called <b>Needs </b>(for Economic Resource Types) and <b>Abilities</b> 
+		(to provide Economic Resource Types).  Needs and Abilities are not <b>commitments</b>, they are not yet 
+		connected to any other <b>Economic Agent</b>.  Each is like one half of a commitment, looking for its mate.
+	</p>
+	<p>
+		Needs in the form of offers to buy might be called Demands.  Likewise, abilities in the form of
+		resources available-to-promise might be called Supplies.
+	</p>
+	<p>Some examples from the <b>Iowa Biotech business cluster</b>:</p>
+	<img src="images/IBTCluster2.PNG" alt="IDT Needs"/>
+	<p>IDT needs Research and Engineering Skills and has the ability to provide Oligonucleotides.
+	</p>
+	<img src="images/IBTCluster1.PNG" alt="Iowa U Abilities" />
+	<p>The Iowa University CBB has the ability to provide the necessary Research Skills and IDT could 
+		even farm out some of their fermenting work to the Iowa U GLP Lab.
+	</p>
+	<p>
+		Here we mate the Research Skill Ability and Need:
+	</p>
+	<img src="images/IBTClusterLinks.png" alt="CBB - IBT links" />
+	<p>
+		Internet aggregators register and compute upon Needs all the time:
+	</p>
+	<img src="images/VacSearch.png" alt="Google search" /><br /><br />
+	<p>
+		They even suggest things they think we might want, based on our search and buying history:
+	</p>
+	<div align="center">
+		<img src="images/AmazonRecs.png" alt="Amazon recommendations" />
+	</div>
+	<h2>Input-Output Graphs</h2>
+	<blockquote>
+		<p style="font-family: sans-serif; font-size: 90%; " >
+			The <b>Input-output model</b> of economics uses a matrix representation 
+			of a nation's (or a region's) economy to predict the effect of changes 
+			in one industry on others and by consumers, government, and foreign suppliers 
+			on the economy. Wassily Leontief (1906-1999) is credited with the development 
+			of this analysis. <br />
+			<a href="http://en.wikipedia.org/wiki/Input-output_model">http://en.wikipedia.org/wiki/Input-output_model</a>
+		</p>
+	</blockquote><br /><br />
+	<table align="center" border="1" cellpadding="5" cellspacing="0">
+		<tbody>
+			<tr>
+				<th>Economic Activities</th>
+				<th>Inputs to Agriculture</th>
+				<th>Inputs to Manufacturing</th>
+				<th>Inputs to Transport</th>
+				<th>Final Demand</th>
+				<th>Total Output</th>
+			</tr>
+			<tr>
+				<td>Agriculture</td>
+				<td>5</td>
+				<td>15</td>
+				<td>2</td>
+				<td>68</td>
+				<td>90</td>
+			</tr>
+			<tr>
+				<td>Manufacturing</td>
+				<td>10</td>
+				<td>20</td>
+				<td>10</td>
+				<td>40</td>
+				<td>80</td>
+			</tr>
+			<tr>
+				<td>Transportation</td>
+				<td>10</td>
+				<td>15</td>
+				<td>5</td>
+				<td>0</td>
+				<td>30</td>
+			</tr>
+			<tr>
+				<td>Labor</td>
+				<td>25</td>
+				<td>30</td>
+				<td>5</td>
+				<td>0</td>
+				<td>60</td>
+			</tr>
+		</tbody>
+	</table>
+	<div align="center">
+		from <a href="http://en.wikipedia.org/wiki/Input-output_model">http://en.wikipedia.org/wiki/Input-output_model</a>
+	</div>
+	<p>
+		REA might model those relationships like this table below, 
+		which of course is easily transformable to the I-O table above.
+		The Sectors are aggregate <b>Economic Agent Types</b>, and the <b>Resource Type</b> is also usually an aggregate.
+	</p>
+	<table border="1" cellpadding="5" cellspacing="0" >
+		<tbody>
+			<tr>
+				<th style="background-color: rgb(204, 204, 204);" >FromSector</th>
+				<th style="background-color: rgb(204, 204, 204);" >ToSector</th>
+				<th style="background-color: rgb(204, 204, 204);" >ResourceType</th>
+				<th style="background-color: rgb(204, 204, 204);" >Quantity</th>
+			</tr>
+			<tr>
+				<td>Agriculture</td>
+				<td>Agriculture</td>
+				<td>FarmProducts</td>
+				<td>5</td>
+			</tr>
+			<tr>
+				<td>Agriculture</td>
+				<td>Manufacturing</td>
+				<td>FarmProducts</td>
+				<td>15</td>
+			</tr>
+			<tr>
+				<td>Agriculture</td>
+				<td>Transport</td>
+				<td>FarmProducts</td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>Agriculture</td>
+				<td>Consumers</td>
+				<td>FarmProducts</td>
+				<td>68</td>
+			</tr>
+			<tr>
+				<td>Manufacturing</td>
+				<td>Agriculture</td>
+				<td>ManufacturedProducts</td>
+				<td>10</td>
+			</tr>
+			<tr>
+				<td>Manufacturing</td>
+				<td>Manufacturing</td>
+				<td>ManufacturedProducts</td>
+				<td>20</td>
+			</tr>
+			<tr>
+				<td>Manufacturing</td>
+				<td>Transport</td>
+				<td>ManufacturedProducts</td>
+				<td>10</td>
+			</tr>
+			<tr>
+				<td>Manufacturing</td>
+				<td>Consumers</td>
+				<td>ManufacturedProducts</td>
+				<td>40</td>
+			</tr>
+			<tr>
+				<td>Transport</td>
+				<td>Agriculture</td>
+				<td>TransportService</td>
+				<td>10</td>
+			</tr>
+			<tr>
+				<td>Transport</td>
+				<td>Manufacturing</td>
+				<td>TransportService</td>
+				<td>15</td>
+			</tr>
+			<tr>
+				<td>Transport</td>
+				<td>Transport</td>
+				<td>TransportService</td>
+				<td>5</td>
+			</tr>
+			<tr>
+				<td>Labor</td>
+				<td>Agriculture</td>
+				<td>LaborService</td>
+				<td>25</td>
+			</tr>
+			<tr>
+				<td>Labor</td>
+				<td>Manufacturing</td>
+				<td>LaborService</td>
+				<td>30</td>
+			</tr>
+			<tr>
+				<td>Labor</td>
+				<td>Transport</td>
+				<td>LaborService</td>
+				<td>5</td>
+			</tr>
+		</tbody>
+	</table>
+	<h2>Regional Economies</h2>
+	<p>
+		Regional economic analyses often use input-output tables.  For example:
+	</p>
+		<img src="images/WorldExports.png" alt="World Exports" /><br />
+		<div align="center">from <a href="http://comtrade.un.org/pb/FileFetch.aspx?docID=1425">http://comtrade.un.org/</a><br /></div>
+	<p>
+		Input-output tables can quantify strengths, weaknesses and opportunities of large aggregate 
+		<b>economic agents</b>, for example, Developing Economies in Sub-Saharan Africa.
+	</p>
+	<h2>Ecosystems</h2>
+	<p>
+		Human beings need to get past the part of the definition of an <b>economic resource</b> as 
+		being "under the control of an enterprise", and consider all the necessities of all life 
+		to be <b>resources</b>:  air, water, soil fertility, etc.  And we need to track the input-output 
+		relationships among the enterprises and these so-called "externalities":  e.g. air and water 
+		pollution, soil degradation, mad cow disease, global warming.
+	</p>
+	<img src="images/Ethanol.png" alt="Ethanol production" /><br /><br />
+	<img src="images/Seismographs.png" alt="Seismographs" /><br />
+	<div align="center">
+		from <a href="http://www.nanometrics.ca/">http://www.nanometrics.ca/</a><br />
+	</div>
+	<h2>World Models</h2>
+	<p>
+		Several methods of modeling large ecosystems exist.  One popular model is System Dynamics, 
+		which can be integrated easily with REA models.
+	</p>
+	<p>
+		System Dynamics models consist of interconnected <b>Stocks</b> and </b>Flows of <b>Resources</b>.  
+		Flows increase or decrease Stocks, as do <b>Stock Flows</b> in REA.
+	</p>
+	<img src="images/SystemDynamicsOilModel.png" alt="System Dynamics Oil Model" /><br />
+	<div align="center"><b>System Dynamics Petroleum Extraction Model</b><br />
+		from <a href="http://sysdyn.clexchange.org/sdep/Roadmaps/RM9/D-4480.pdf">http://sysdyn.clexchange.org/sdep/Roadmaps/RM9/D-4480.pdf</a><br />
+		<br /><img src="images/WellStorm.gif" alt="Well Storm" /><br />
+		from <a href="http://www.wellstorm.com/solution/">http://www.wellstorm.com/solution/</a>
+	</div>
+	<p>
+		By plugging REA data from sensors and other sources into the stocks of Wells and Petroleum Reserves, 
+		and the rates of drilling and extraction, such models could become grounded in the real world.  
+		Then they can simulate into the future from realistic starting points, and compare their
+		predictions to unfolding events.
+	</p>
+	<h2>The Economic Nervous System</h2>
+	<p>
+		Signals from bar code readers in retail checkout lines (<b>economic events</b>) trigger receptors at packaged goods companies. 
+		Hospital <b>economic event</b> signals trigger receptors at insurance companies.  As we've seen, Web shopping <b>economic events</b>
+		trigger receptors at Amazon, eBay, etc. 
+	</p>
+	<p>
+		The ripple effects of these signals usually extend no more than one or two tiers into the affected
+		supply chains.  But this will change.
+	</p>
+	<p>
+		Those are demand signals. Now we are seeing signals coming the other way, from the supply side,
+		like the oil well sensors depicted above. Below is a <b>wireless farm field sensor</b>, 
+		that monitors soil and weather conditions and can help to predict crop yields:
+	</p>
+		<div align="center">
+		<img src="images/FieldSensor.png" alt="Field Sensor" /><br />
+		from <a href="http://model.job.affrc.go.jp/FieldServer/documents/CIGR2004paper.pdf">http://model.job.affrc.go.jp/FieldServer/documents/CIGR2004paper.pdf</a>
+		</div>
+	<p>
+		Field sensors are not yet abilities to provide <b>resources</b>.  We might call their combined effect
+		a Potential. 
+	</p>
+	<p>
+		And the combined effect of all of those economic signals and potentials and the reasoning
+		developed on top of them will be the economic nervous system of the planet.
+	</p>
+	<h2>Conclusion</h2>
+	<p>
+		REA <b>economic exchanges</b> can extend across companies, industries, nations, regions and the earth as a whole.  
+		REA <b>economic resource and agent types</b> can aggregate data at higher and higher levels.
+	</p>
+	<p>
+		Integration of REA data at higher levels could give enterprises and individuals views into their 
+		surrounding value systems, business clusters, regional economies and ecosystems.
+	</p>
+	<p>
+		Governmental and regional organizations could operate with current accurate aggregate data 
+		for economic analyses and future predictability.
+	</p>
+	<p>
+		Internet aggregators could follow the dependencies of <b>economic events</b> more deeply, 
+		beyond superficial text matches, into the ripple effects of wants and needs
+		and potentials on all the related <b>economic agents</b>.
+	</p>
+	<p>
+		The signals of <b>economic events</b>, needs and potentials do now and will increasingly
+		propagate through networks of economic relationships that will be forced to look
+		a lot like REA.  Those networks will become increasingly intelligent.
+	</p>
+	<h4>What does it all mean for REA practitioners?</h4>
+	<ul>
+		<li>Think bigger.</li>
+		<li>Look outward and forward.</li>
+		<li>Live on the Web.</li>
+		<li>Collaborate with other REA system developers to develop interoperable implementations.</li>
+		<li>Follow the chains of economic events wherever they lead.</li>
+		<li>Aggregate information from everywhere at REA Type levels.</li>
+		<li>Design precursors to Commitments: Demand, Supply, Need, Ability, Potential.</li>
+		<li>Develop economic analyses over REA data using econometric, simulation and other algorithms.</li>
+	</ul>
+
+	<h3>Appendix: Reviewer comments and <i>author responses</i></h3>
+
+	<p><b>Reviewer A</b></p>
+
+	<p>
+		I think that the paper would benefit from the integration of REA (enterprise) models; 
+		what does this all mean from the perspective of REA modeling
+	</p>
+
+	<blockquote>
+		<p><i>
+		REA enterprises are included in very condensed form (usually in a single bubble) in several of the diagrams. 
+		 I exploded the company in Figure 3, Value System Flows, to show Bill McCarthy's usual internal enterprise model, 
+		and added a new diagram illustrating how the economic formations layer over a company.  Probably not adequate, 
+		but a bit more suggestive of how the internal and external views might mesh.
+		</i></p>
+
+		<p><i>
+		Plus, the models for the larger economic formations <b>are</b> REA models.  The divisions of economic relationships 
+		into companies are arbitrary, anyway:  consider the continuous flux of mergers, spin-offs and outsourcing.  
+		Today's business cluster or value system may be tomorrow's conglomerate, today's internal process may be 
+		tomorrow's outsourced process, and today's integrated enterprise may spawn tomorrow's spin-off.
+		</i></p>
+	</blockquote>
+
+	<p><b>Reviewer B</b></p>	
+
+	<p>
+		Style could be more academic and less 'popular'. 
+	</p>
+
+	<blockquote>
+		<p><i>
+		The first version was even less academic than the one reviewed.  I would prefer to move it back in the other direction, 
+		more popular and less academic. I'm interested in broader adoption of REA, beyond academia where it already has 
+		significant traction. For example, I find the current "more academic" version of this paper (the Word doc) significantly 
+		more difficult to read than the "more popular" version (this HTML page). But of course your opinion may vary.
+		</i></p>
+	</blockquote>
+
+	<p><b>Reviewer C</b></p>	
+
+	<p>
+		The paper presents an intriguing concept that merits further research, as it may prove beneficial in understanding of large-scale economic phenomena. 
+	</p>
+
+	<blockquote>
+		<p><i>
+		Thanks, that is what I am trying to promote.
+		</i></p>
+	</blockquote>
+
+	<p>
+		However, the submitted paper doesn't present a deeper, rigorous analysis of how various aspects of REA ontology 
+		may apply in these different contexts (or at least one selected context), and why using them would bring a deeper understanding 
+		of context-specific real phenomena occurring there, or whether the REA model is applicable as such in these contexts. 
+	</p>
+
+	<blockquote>
+		<p><i>
+		I agree about depth and vigor, but disagree about applicability to the various contexts presented. 
+		This is a breadth, not a depth, paper: intended to skim over all of the larger-scale economic formations and analyses 
+		where I had some experience and thought REA applied.  I co-authored a previous paper that got into a lot of detail 
+		on supply chains, and will write again in more detail on some of these contexts.  But I thought it would be useful and 
+		possibly mind-expanding to look at the breadth of applicable contexts.
+		</i></p>
+
+		<p><i>
+		Plus, regarding more depth, we only have 30 minutes for the presentation and the paper already has way too much content.
+		</i></p>
+
+		<p><i>
+		I am eager to get into great detail on any individual context that anybody wants to pursue, either in the question period 
+		in the presentation, or afterwards in any setting, but do not want to narrow the scope of the paper.
+		</i></p>
+	</blockquote>
+
+	<p><b>Reviewer D</b></p>	
+
+	<p>
+		I like the wish to extend the REA ontology/model to cover more of the types of analysis done - however I would like to get 
+		a more direct link between the different concepts and the REA concepts in order for this paper to contribute to the research of REA.
+	</p>
+
+	<blockquote>
+		<p><i>
+		Did you not find the links between the economic formations and REA concepts in the paper?  
+		I thought they were fairly explicit and clear, although a bit terse.  I bolded the REA concepts in the revised paper, 
+		and added a few more, to make them more explicit.
+		</i></p>
+	</blockquote>
+
+	<p>
+		Supply Chains and Value Systems: Enterprise systems already embrace their employees families when needed 
+		in the Human Resource modules and REA can model these things too but this has more to do with what you want to model 
+		and nothing with limitations in the REA ontology.
+	</p>
+
+	<blockquote>
+		<p><i>
+		My point was not about limitations in the REA ontology, but limitations in the usual enterprise systems.  
+		While Human Resource models do deal with some aspects of employee family economic activities 
+		(usually insurance and retirement savings), their penetration is usually very limited.  
+		Using REA as a guide, they could do a lot more.
+		</i></p>
+		<p><i>
+		Two possibly extreme examples to get the idea across: 
+		<ol>
+			<li>
+				Accounting software could be provisioned per individual economic agent instead of 
+				(or addition to) per company, and aggregated at both the family and company levels.  
+				The family's exchanges with the company would be reflected both in the family and company accounts. 
+				And the family could use the same software for all of their accounting requirements 
+				beyond their relationship with the company.
+			</li>
+			<li>
+				Small businesses (e.g. farms) often have trouble mixing their family and business economic events.  
+				REA software could allow them to do all of their economic activities in the same system, 
+				but keep them separate for legal and tax purposes.  This is another feature that I think
+				would be difficult to provide with any other accounting model.
+			</li>
+		</ol>
+		</i></p>
+	</blockquote>
+
+	<p>
+		Business Center: Why is a Business Cluster not just a REA group? 
+	</p>
+
+	<blockquote>
+		<p><i>
+		It is, and that was my point. But it is (sometimes subtly) different from the usual internal-enterprise REA model.
+		</i></p>
+	</blockquote>
+
+	<p>
+		Why is Needs not just a state of the commitment where it is not fully specified yet.  
+	</p>
+
+	<blockquote>
+		<p><i>
+		It could be, but in my experience needs often have properties and behavior that are different from commitments, 
+		so in those cases it may work better to model them as separate but possibly related objects.  Needs often require 
+		more detailed specifications to describe resources that might fit the need, whereas once a commitment is nailed down, 
+		the resource type embodies the specifications.
+		</i></p>
+		<p><i>
+		For example, in a recent business cluster model, a manufacturing plant needed land with a long list of requirements 
+		such as rail and truck access, a given volume of water, proximity to other feeder plants, etc.  
+		It's more like a Request for Proposal item than a purchase order item. When the commitment is made, 
+		it will just specify a plot of land that will probably be a compromise, that is, may not satisfy all specs.
+		</i></p>
+	</blockquote>
+
+	<p>
+		Input-Output Graphs: Is this not just a way of viewing at the REA model? 
+	</p>
+
+	<blockquote>
+		<p><i>
+		Yes, but usually at a level much higher than one individual enterprise.
+		</i></p>
+	</blockquote>
+
+	<p>
+		What is different and why should the REA ontology cover this?
+
+	</p>
+
+	<blockquote>
+		<p><i>
+		What is different in all of the larger economic formations is that:
+		<ul>
+			<li>
+				the models deal with many enterprises, not just a single enterprise, and
+			</li>
+			<li>
+				 the resources, events and agents are usually aggregates or high-level types instead of individuals, and 
+			</li>
+			<li>
+				the models take the independent instead of internal enterprise view. 
+			</li>
+		</ul>
+		</i></p>
+		<p><i>
+		 But my point in this paper is that the REA ontology is able to model all of these larger formations, with little or no change. 
+		And the analytical methods for larger economic formations can be used over REA information bases quite nicely.
+		I do <b>not</b> mean that the analytical methods themselves should be incorporated into REA.
+		</i></p>
+	</blockquote>
+
+	<p>
+		Regional Economics: What is the relation to REA?
+	</p>
+
+	<blockquote>
+		<p><i>
+		A region is yet another larger economic formation, and can be modeled using the REA ontology, 
+		just as any other economic formation can be modeled using the REA ontology.  
+		The ontology is not limited to internal enterprise activities.
+		</i></p>
+	</blockquote>
+
+	<p>
+		Ecosystems: What is the relation to REA? Is this not just a special view of the REA model where agents are ignored? 
+	</p>
+
+	<blockquote>
+		<p><i>
+		Yes, although it is not necessary to ignore agents in an ecosystem model.  It is just necessary to ignore 
+		the part of the definition of an economic resource as being "under the control of an economic agent", 
+		unless one considers the planet or maybe the global body politic as an economic agent.
+		</i></p>
+	</blockquote>
+
+	<p>
+		Are you sure that all events are economic events? If not all events are economic events then they are not part of the REA model - 
+		would they still be in this Dynamic model?
+	</p>
+
+	<blockquote>
+		<p><i>
+		Not all events are economic events; but consumption, production and degradation of economic resources are economic events.
+		</i></p>
+	</blockquote>
+
+	<p>
+		Economic Nervous System: How are Potentials linked to the REA ontology - are they just information? 
+		If so then they should not be in a core REA model.
+	</p>
+
+	<blockquote>
+		<p><i>
+		Potentials are information about the future flows of economic resources, and thus may be of interest to an REA model
+		whether one considers them to be "core" or not.  I don't, really, but I do consider them to be a motivated extension.
+		Potentials will also be interesting to enterprises that are dependent on future flows, which is why many companies spend 
+		a lot of money tracking and analyzing them.  For example, the existence or timing of the phenomenon known as 
+		"Peak Oil" has huge economic implications not only for oil companies but also for alternative energy, agriculture, 
+		transportation, and almost every other industry.
+		</i></p>
+	</blockquote>
+
+	</div>
+	</body>
+</html>
