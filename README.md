@@ -1,4 +1,4 @@
 website
 =======
 
-This is an old version - do not use.
+This is the current version of the mikorizal website.
