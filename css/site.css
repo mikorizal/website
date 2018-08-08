@@ -119,12 +119,18 @@ h4 {
     padding: 26px 60px 90px 60px;
     margin-top: 20px;
 }
+.contact-row {
+    background-color: #ffcc80;
+    padding: 15px 5px 5px 5px;
+    text-align: center;
+}
 .faq {
     color: gray;
     font-size: 1.6em;
     font-weight: bold;
     text-align: center;
 }
+#old
 .contact {
     font-size: 1.4em;
     text-align: center;
