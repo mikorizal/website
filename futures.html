@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Paths to the Future</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/site.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar" role="navigation">
+      <div class="container">
+      <!--<span id="forkongithub"><a href="https://github.com/valnet/valuenetwork" target="_blank">Fork me on GitHub</a></span>-->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <img src="mushy40.jpg" alt="Mushy the chanterelle mushroom" title="Mushy the chanterelle mushroom" />
+            mikorizal software<br />
+            <img src="myc.png">
+          </a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="software.html">Software</a></li>
+            <li><a href="groups.html">Networks</a></li>
+            <li><a href="flows.html">Resource Flows</a></li>
+            <li><a href="links.html">Links</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+ 
+    <div class="container main">
+        <h1>3.5 paths to the future <img src="images/network-of-networks.png" alt="Networks of Networks" title="Networks of Networks" height="350" width="600" /></h1>
+      <div class="row">
+        <div class="col-md-6">
+            <h4>Deconstructing the monolith</h4>
+                <p>In 2012, after developing software for food networks, we started to work with <a href="http://www.sensorica.co/">Sensorica</a> on software that could support economic networks of any kind. The software was called NRP, for Network Resource Planning. Here's an <a href="https://speakerdeck.com/mikorizal/1-nrp-overview">overview slide deck</a>.
+                </p>
+                <p>We created a monolith, which is a single system with one big database where all the users have usernames and passwords and log into the same app.
+                </p>
+                <p>This is actually a good idea when you are developing something new that has never been done before, as we were doing. As Martin Fowler says, "<a href="https://martinfowler.com/bliki/MonolithFirst.html">"monolith first"</a>.
+                </p>
+                <p>NRP worked, and has been forked several times and is now working for at least three networks.
+                </p>
+                <p>But every solution brings its own set of new problems, and so it was with NRP.
+                </p>
+            <h4>Monolithic problems</h4>
+                <p>NRP was too big and did too much.
+                </p>
+                <p>It was too overwhelmingly difficult to understand for new networks. It was very flexible and configurable, but of course, then <a href"https://speakerdeck.com/mikorizal/configuring-nrp">it needed to be configured</a>, and somebody needed to understand and confiure it, which in practice meant that one or two people in the network understood everything and most of the other people understood very little and complained a lot.
+                </p>
+                <p>And a new network had to put on this whole humongous set of clothes when all they needed was new socks. They couldn't start with the first small component they needed, they had to eat the whole thing. All of which, as you can see, also leads to awkwardly mixed metaphors...
+                </p>
+                <p>It was also too difficult for new programmers to work on. They needed to understand too much before they could get anything done, and they were also forced to work with the technologies chosen by us, the original implementors.
+                </p>
+            <h4>Joining the Open App Ecosystem</h4>
+                <p>So anyway, we met these people from <a href="https://enspiral.com/">Enspiral</a> who proposed to start an <a href="https://github.com/open-app/core"</a>Open App Ecosystem</a> and thought we should break NRP up into a suite of tiny apps that all worked together. And we bit. Which has developed into <a href="https://www.loomio.org/g/exAKrBUp/open-app-ecosystem">5 years of very nice discussions about how to do it</a>. And attracted a swarm of people and projects.
+                </p>
+            <h4>Glue</h4>
+                <p>So how do suites of tiny open apps work together to form economic networks, which is, after all, what we are trying to support? The early discussions decided they need to use common vocabularies and protocols. Thus the <a href="https://valueflo.ws/">ValueFlows project</a> emerged from those early proposals.
+                </p>
+            <h4>ValueFlows...</h4>
+                <p>...is a set of common vocabularies to describe flows of economic resources of all kinds within distributed economic ecosystems. it's being used now by <a href="https://fair.coop/">FairCoop</a> and <a href="https://learndeep.org/">LearnDeep</a> and will be used by all of our 3.5 paths for the future.
+            <h4>What took you so long?</h4>
+                <p>That's from 2014 when we first decided on this new direction until now.</p>
+                <p>We are old people and can't do this work forever. So part of this direction is a succession plan. We are talking to and organizing groups of younger people who understand what we have been trying to do, in some cases better than us, and can take if forward. And this new direction will also take total technical makeovers for both of us, so we will be starting over again as trainees. 
+                </p>
+                <p>So the younger people are taking over, and all of the paths to the future are led by them.</p>
+                
+                
+        </div>
+        <div class="col-md-6">
+            <h4>The paths</h4>
+                <p>Besides breaking up the monolith into smaller components, we decided they also should use a distributed architecture where different people and groups could have their own identities and apps and sites but still all communicate with each other and form networks using the ValueFlows vocabulary.
+                </p>
+                <p>There are now experimental projects going forward in each of these distributed protocols:</p>
+                <ul style="list-style: none;">
+                    <li>1. <a href="http://activitypub.rocks/">ActivityPub</a></li>
+                    <li>2. <a href="https://holochain.org/">Holochain</a></li>
+                    <li>3. <a href="https://www.scuttlebutt.nz/">Secure Scuttlebutt</a></li>
+                    <li>3.5 <a href="https://github.com/solid/solid">Solid</a></li>
+                </ul>
+                <p>We're not sure which of these experiments will succeed or take off and become popular. And each of those protocols has advantages and disadvantages and will be better for some situations than others. So we are happy to have more than one experiment in motion. If all of them succeed, then we want them all to be able to interoperate with each other.
+                </p>
+                <p>We think the future is a combination of social and economic networking. <a href="https://ivanminutillo.com/">Ivan Minutillo</a> is developing a set of user interface components that accomplishes that combination, and can be used by any of those protocols.
+                </p>
+                <p>Lynn and <a href="http://pospi.spadgos.com/">Pospi</a> are developing a <a href="https://github.com/valueflows/vf-graphql">GraphQL API</a> that works with Ivan's UI components and can also be used by any of those protocols.
+                </p>
+                <p>If you look at Ivan and Pospi's websites (linked to their names) you can see that they have each been doing a lot of thinking and writing about the new social-economic networks that they are working toward.
+                </p>
+            <h4>Holochain</h4>
+                <p>We'll start the discussion of the paths with Holochain, because it will set up some themes that we'll mention in the other paths.
+                </p>
+                <p>Holochain says it is "what comes after blockchains": that is, providing similar transactional security to blockchains, but without the huge energy consumption and slowness. While blockchains claim to be decentralized but are actually multiple replicants of the same chain, Holochains are distributed and agent-centric, where each agent has their own different data that can be connected to other agents in networks.</p>
+                <p><a href="https://github.com/sqykly">David Hand</a>, who took over the development of NRP with Sensorica, and <a href="http://pospi.spadgos.com/">Pospi</a>, are working on the <a href="https://github.com/Holo-REA/">HoloREA</a> project to develop ValueFlows-based economic networks in Holochain.
+                </p>
+            <h4>ActivityPub</h4>
+                <p>ActivityPub is a <a href="https://www.w3.org/TR/activitypub/">standard specification for federated social networks</a>. It generalized several previous similar protocols, Sites using any of those protocols can talk to each other in the <a href="https://fediverse.party/">Fediverse</a>.
+                </p>
+                <p>We'll use ActivityPub in a similar agent-centric configuration as Holochain. However, the transactional security that Holochain promises has not yet been developed for ActivityPub, so we will need to develop it.
+                </p>
+                <p><a href="https://mayel.space/">Mayel de Borniol</a> has been building <a href="https://commonspub.org/">CommonsPub</a> which will be the base for the ActivityPub economic network project.
+                </p>
+            <h4>Scuttlebutt (SSB)</h4>
+                <p>SSB is already agent-centric and provides strong security, but does not yet provide for economic interactions like transactions or production.</p>
+                <p><a href="https://github.com/open-app">Luandro Vieira is developing</a> the economic network potentials of SSB. The amazing project is </a> a <a href="https://www.loomio.org/d/KEcf2u84/experimentation-with-open-app-ecosystem">Community Economic System</a> in a <a href="https://en.wikipedia.org/wiki/Quilombola">quilombola village</a> in central Brazil using <a href="https://en.wikipedia.org/wiki/Wireless_mesh_network">wireless mesh networks</a>.</br>
+                <img src="images/moinho1.jpg" alt="Moinho Brazil" title="Moinho Brazil" height="200" width="300" />
+                <img src="images/moinho2.png" alt="Moinho Mesh" title="Moinho Mesh" height="200" width="200" />
+                <p>
+            <h4>Solid</h4>
+                <p>"Solid (derived from 'social linked data') is a proposed set of conventions and tools for building decentralized Web applications based on Linked Data" (also known as the Semantic Web). While the ValueFlows vocabulary has been specified as Linked Data using Semantic Web formats, it has also been specified and can be used as plain JSON (and eventually hashtags in text messages). It is ecumenical.</p>
+                <p>The <a href="https://app.solidbase.info/">SolidBase</a> project is developing a budgeting system for <a href="https://solawi-marburg.de/inhalte/was-ist-solawi">Solawis</a>, Solidarity Agriculture associations. Lynn of the Mikorizals helped them set up a ValueFLows model for their budget, but we have not been very involved in the project beyond that, which is why this rates .5 of a path. But we love them a lot anyway.
+                </p>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 contact-row">
+            <p>Please <a href="mailto:info@mikorizal.org">send us an email</a> 
+            if you want to contact us directly.
+            <br />
+            You can also <a href="https://mailman-mail5.webfaction.com/listinfo/mikorizal-discuss" target="_blank" >subscribe to our mailing list</a>. 
+            </p>
+        </div>
+      <div>
+
+    </div> 
+
+  </body>
+</html>
